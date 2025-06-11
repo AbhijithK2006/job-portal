@@ -14,6 +14,8 @@ function Home() {
             placeholder="Search Jobs"       
             className="px-4 py-2 rounded-lg border border-[#511D43] focus:outline-none focus:ring-2 focus:ring-[#511D43] transition w-80" />
     </div>
+
+    
     </>
   )
 }
