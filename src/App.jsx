@@ -1,10 +1,10 @@
 // App.jsx
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './Nav';
-import Loginpage from './Loginpage';
-import Home from './Home';
-import Signup from './Signup';
+import Nav from './Home/Nav';
+import Loginpage from './Home/Loginpage';
+import Home from './Home/Home';
+import Signup from './Home/Signup';
 
 function App() {
   return (
