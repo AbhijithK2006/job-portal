@@ -4,10 +4,11 @@ import React from 'react'
 function Signup() {
   return (
     <>
-    <div className='bg-[#00809D]'>
-    <div className='flex items-start justify-center py-27'>
-    <div className='max-w-md w-screen border bg-amber-50 border-amber-950 rounded-2xl shadow-xl p-8 space-y-8'>
-      <h2 className="text-center text-2xl font-bold text-[#511D43]">Sign up</h2>
+    <div className='bg-[#f1faee]'>
+    <div className='flex items-start justify-center py-20'>
+    <div className='max-w-md w-screen bg-white px-10 py-15 rounded-4xl shadow-lg'>
+      <h2 className="text-center text-4xl font-bold text-[#511D43]">Sign up</h2>
+      <div className='py-4'>
       <form className='grid gap-5'>
         <div className="text-2xl font-medium">Email</div>
         <TextField
@@ -45,6 +46,7 @@ function Signup() {
         </Button>
         </div>
       </form>
+      </div>
     </div> 
     </div> 
     </div>

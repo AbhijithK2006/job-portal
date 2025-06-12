@@ -3,10 +3,11 @@ import { Button, FormControl, InputLabel, MenuItem, Select, TextField } from '@m
 
 function Loginpage() {
    return (
-    <div className='bg-[#00809D]'>
-    <div className='flex items-start justify-center h-screen py-28'>
-    <div className='max-w-md w-screen border bg-amber-50 border-amber-950 rounded-2xl shadow-xl p-8 space-y-8'>
-      <h2 className="text-center text-2xl font-bold text-[#511D43]">Login In</h2>
+    <div className='bg-[#f1faee]'>
+    <div className='flex items-start justify-center h-screen py-20'>
+    <div className='max-w-md w-screen bg-white px-10 py-15 rounded-4xl shadow-lg'>
+      <h2 className="text-center text-4xl font-bold text-[#511D43]">Login In</h2>
+      <div className='py-4'>
       <form className='grid gap-5'>
         <div className="text-2xl font-medium">Email</div>
         <TextField
@@ -49,6 +50,7 @@ function Loginpage() {
         </Button>
         </div>
       </form>
+      </div>
     </div> 
     </div> 
     </div>  
